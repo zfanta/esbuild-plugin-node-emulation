@@ -1,0 +1,6 @@
+.idea/
+node_modules/
+test/
+.eslintrc.js
+tsconfig.json
+index.ts
