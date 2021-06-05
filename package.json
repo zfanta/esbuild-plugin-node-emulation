@@ -1,10 +1,10 @@
 {
   "name": "esbuild-plugin-node-emulation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild index.ts --outdir=lib --platform=node",
+    "build": "esbuild index.ts --outdir=lib --platform=node --format=cjs",
     "test": "eslint . --ext .ts && ts-node test/index.ts",
     "eslit:fix": "eslint . --ext .ts --fix"
   },
